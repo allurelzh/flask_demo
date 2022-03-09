@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}发布问答{% endblock %}
+{% block body %}
+
+<div class="row" style="margin-top: 20px">
+<div class="col"></div>
+<div class="col-10">
+    <div class="card text-center">
+  <div class="card-header">
+    <h3 class="card-title text-primary" style="text-align: center">发布问题</h3>
+  </div>
+   <form action="{{ url_for("qa.public_question")}}" method="post">
+  <div class="card-body">
+    <h5 class="card-title"><input type="text" name="title" class="form-control" placeholder="请输入标题"></h5>
+    <p class="card-text"><textarea name="content" class="form-control" rows="10" placeholder="请输入内容"></textarea></p>
+      <div class="form-group" style="text-align: right">
+    <button class="btn btn-primary">发布</button>
+      </div>
+  </div>
+     </form>
+  <div class="card-footer text-muted">
+    您发布的内容会在首页中出现
+  </div>
+</div>
+</div>
+<div class="col"></div>
+</div>
+{% endblock %}

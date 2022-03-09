@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}首页{% endblock %}
+{% block head %}
+{% endblock %}
+{% block body %}
+    <div class="row" style="margin-top: 20px;">
+        <div class="col"></div>
+        <div class="col-10">
+            {% for question in questions %}
+                <div class="card mb-2">
+                    <div class="row no-gutters">
+                        <div class="col-sm-3">
+                            <img src="{{ url_for("static",filename="images/0.png") }}" alt="..." class="img-thumbnail"
+                                 style="height: 150px;width:80%;">
+                            <p class="card-text" style="margin-left: 20px">{{ question.author.username }}</p>
+                            <p class="card-text" style="margin-left: 20px;">{{ question.create_time }}</p>
+                            </div>
+                        <div class="col-sm-9">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary"><a href="{{ url_for("qa.question_detail",id = question.id)}}">{{ question.title }}</a></h5>
+                                <p class="card-text">{{ question.content }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        <div class="col"></div>
+    </div>
+{% endblock %}
