@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="第 1 页" id="9oLcChZLBmCLIfF3ptJM">
-    <mxGraphModel dx="1750" dy="928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1518" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,7 +10,7 @@
         <mxCell id="ly4h5jfgBfxPe-2GgAdj-1" value="ctwaf-redis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ly4h5jfgBfxPe-2GgAdj-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ly4h5jfgBfxPe-2GgAdj-2" target="ly4h5jfgBfxPe-2GgAdj-23">
+        <mxCell id="ly4h5jfgBfxPe-2GgAdj-48" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ly4h5jfgBfxPe-2GgAdj-2" target="ly4h5jfgBfxPe-2GgAdj-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ly4h5jfgBfxPe-2GgAdj-2" value="openresty" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -67,37 +67,48 @@
         <mxCell id="ly4h5jfgBfxPe-2GgAdj-20" value="insighter agent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="890" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ly4h5jfgBfxPe-2GgAdj-22" value="2.消费MQ，业务&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%226.%E5%90%84%E8%8A%82%E7%82%B9gather%E5%B0%86%E5%AF%B9%E5%BA%94tenantId%E7%9A%84%E6%B5%81%E9%87%8F%E4%BF%A1%E6%81%AF%26lt%3Bdiv%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bbackground-color%3A%20initial%3B%26quot%3B%26gt%3B%E5%AD%98%E5%82%A8%E5%88%B0%E4%BB%A5tenantId%E4%B8%BAkey%E7%9A%84redis%E4%B8%AD%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Fdiv%26gt%3B%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3Bautosize%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22310%22%20y%3D%22530%22%20width%3D%22240%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;用途识别" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ly4h5jfgBfxPe-2GgAdj-22" value="7.消费MQ，业务&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%226.%E5%90%84%E8%8A%82%E7%82%B9gather%E5%B0%86%E5%AF%B9%E5%BA%94tenantId%E7%9A%84%E6%B5%81%E9%87%8F%E4%BF%A1%E6%81%AF%26lt%3Bdiv%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bbackground-color%3A%20initial%3B%26quot%3B%26gt%3B%E5%AD%98%E5%82%A8%E5%88%B0%E4%BB%A5tenantId%E4%B8%BAkey%E7%9A%84redis%E4%B8%AD%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Fdiv%26gt%3B%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3Bautosize%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22310%22%20y%3D%22530%22%20width%3D%22240%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;用途识别" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="785" y="260" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ly4h5jfgBfxPe-2GgAdj-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ly4h5jfgBfxPe-2GgAdj-23" target="ly4h5jfgBfxPe-2GgAdj-19">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ly4h5jfgBfxPe-2GgAdj-23" value="ctwaf-gather" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ly4h5jfgBfxPe-2GgAdj-25" value="5.预处理，发送过滤&lt;div&gt;后&lt;span style=&quot;background-color: initial;&quot;&gt;的&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;access.log&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="125" y="463" width="130" height="40" as="geometry" />
+          <mxGeometry x="390" y="430" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ly4h5jfgBfxPe-2GgAdj-27" value="6.各节点gather将对应tenantId的流量信息&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;存储到以tenantId为key的redis中&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="310" y="530" width="240" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ly4h5jfgBfxPe-2GgAdj-29" value="7.insighter从redis中取出&lt;span style=&quot;background-color: initial;&quot;&gt;流量&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;进行API识别及服务对象识别&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ly4h5jfgBfxPe-2GgAdj-29" value="6.insighter从redis中取出&lt;span style=&quot;background-color: initial;&quot;&gt;流量&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;进行API识别及服务对象识别&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="690" y="530" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ly4h5jfgBfxPe-2GgAdj-33" value="8.在内存中进行业务识别为对应&lt;div&gt;的API资产搭上对应的业务tag&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="770" y="435" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ly4h5jfgBfxPe-2GgAdj-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ly4h5jfgBfxPe-2GgAdj-34" target="ly4h5jfgBfxPe-2GgAdj-37">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1351" y="430" />
+              <mxPoint x="1351" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ly4h5jfgBfxPe-2GgAdj-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.331;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="ly4h5jfgBfxPe-2GgAdj-34" target="ly4h5jfgBfxPe-2GgAdj-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1350" y="540" />
+              <mxPoint x="1350" y="440" />
+              <mxPoint x="1150" y="440" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="ly4h5jfgBfxPe-2GgAdj-34" value="Pass redis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1291" y="540" width="120" height="60" as="geometry" />
+          <mxGeometry x="1290" y="540" width="121" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ly4h5jfgBfxPe-2GgAdj-36" value="9.将内存中API资产写入redis" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1055" y="535" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ly4h5jfgBfxPe-2GgAdj-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ly4h5jfgBfxPe-2GgAdj-37" target="ly4h5jfgBfxPe-2GgAdj-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ly4h5jfgBfxPe-2GgAdj-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ly4h5jfgBfxPe-2GgAdj-37" target="ly4h5jfgBfxPe-2GgAdj-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ly4h5jfgBfxPe-2GgAdj-37" value="ctwaf-statr" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -106,8 +117,14 @@
         <mxCell id="ly4h5jfgBfxPe-2GgAdj-39" value="10.按租户发送到statr" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1341" y="473" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ly4h5jfgBfxPe-2GgAdj-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ly4h5jfgBfxPe-2GgAdj-40" target="ly4h5jfgBfxPe-2GgAdj-43">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ly4h5jfgBfxPe-2GgAdj-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ly4h5jfgBfxPe-2GgAdj-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1209.9999999999995" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1230" y="200" />
+              <mxPoint x="1230" y="270" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="ly4h5jfgBfxPe-2GgAdj-40" value="PG" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1291" y="170" width="120" height="60" as="geometry" />
@@ -115,17 +132,17 @@
         <mxCell id="ly4h5jfgBfxPe-2GgAdj-42" value="11.statr进行全网聚合&lt;div&gt;数据落盘到PG&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1360" y="275" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ly4h5jfgBfxPe-2GgAdj-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ly4h5jfgBfxPe-2GgAdj-43" target="ly4h5jfgBfxPe-2GgAdj-3">
+        <mxCell id="ly4h5jfgBfxPe-2GgAdj-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ly4h5jfgBfxPe-2GgAdj-43" target="ly4h5jfgBfxPe-2GgAdj-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ly4h5jfgBfxPe-2GgAdj-43" value="ctwaf-adapter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1291" y="30" width="120" height="60" as="geometry" />
+          <mxGeometry x="1090" y="245" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ly4h5jfgBfxPe-2GgAdj-45" value="12.提供api资产列表接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1360" y="120" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ly4h5jfgBfxPe-2GgAdj-47" value="13.管理平台调用接口查询api资产" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="70" width="200" height="30" as="geometry" />
+          <mxGeometry x="1040" y="315" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
