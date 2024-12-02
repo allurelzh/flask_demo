@@ -220,7 +220,7 @@
           <mxGeometry x="1169" y="264" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KrRgjkXAATxuMhb4QZNn-66" value="&lt;font color=&quot;#33ff33&quot;&gt;9.读取内存中的统计信息&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1355" y="298" width="150" height="30" as="geometry" />
+          <mxGeometry x="1390" y="300" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KrRgjkXAATxuMhb4QZNn-69" value="&lt;font color=&quot;#33ff33&quot;&gt;10.管理平台调用adapter接口获取API统计信息&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1024" y="30" width="270" height="30" as="geometry" />
