@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="第 1 页" id="9oLcChZLBmCLIfF3ptJM">
-    <mxGraphModel dx="1485" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1458" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -164,8 +164,8 @@
         <mxCell id="ly4h5jfgBfxPe-2GgAdj-37" value="ctwaf-statr" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1164" y="392" width="176" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ly4h5jfgBfxPe-2GgAdj-39" value="10.将内存中的API资产写入redis" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1300" y="585" width="190" height="30" as="geometry" />
+        <mxCell id="ly4h5jfgBfxPe-2GgAdj-39" value="10.将内存中的API资产写入redis&lt;div&gt;将API识别的公共信息存入redis&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1294" y="580" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ly4h5jfgBfxPe-2GgAdj-40" value="PG" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1000" y="178" width="160" height="60" as="geometry" />
