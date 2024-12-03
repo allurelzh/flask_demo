@@ -125,7 +125,7 @@
           <mxGeometry x="1199" y="762" width="121" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ly4h5jfgBfxPe-2GgAdj-36" value="9.将识别出的API资产按租户发到statr" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" parent="1" vertex="1">
-          <mxGeometry x="920" y="512" width="220" height="30" as="geometry" />
+          <mxGeometry x="950" y="532" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KrRgjkXAATxuMhb4QZNn-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="ly4h5jfgBfxPe-2GgAdj-37" target="ly4h5jfgBfxPe-2GgAdj-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -162,7 +162,7 @@
           <mxGeometry x="1164" y="392" width="176" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ly4h5jfgBfxPe-2GgAdj-39" value="10.将内存中的API资产写入redis&lt;div&gt;将API识别的公共信息存入redis&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1294" y="580" width="190" height="40" as="geometry" />
+          <mxGeometry x="1250" y="572" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ly4h5jfgBfxPe-2GgAdj-40" value="PG" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1000" y="178" width="160" height="60" as="geometry" />
@@ -182,8 +182,8 @@
         <mxCell id="ly4h5jfgBfxPe-2GgAdj-43" value="ctwaf-adapter" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1360" y="178" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KrRgjkXAATxuMhb4QZNn-7" value="11.statr重启后从redis恢复API资产数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1040" y="710" width="230" height="30" as="geometry" />
+        <mxCell id="KrRgjkXAATxuMhb4QZNn-7" value="11.statr重启后从redis&lt;div&gt;恢复API资产数据&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1110" y="682" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="KrRgjkXAATxuMhb4QZNn-20" value="12.statr进行全网聚合&lt;div&gt;将待确认|已确认API资产&lt;/div&gt;&lt;div&gt;信息写入PG&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1010" y="294" width="150" height="60" as="geometry" />
@@ -224,7 +224,7 @@
         <mxCell id="KrRgjkXAATxuMhb4QZNn-59" value="&lt;font color=&quot;#33ff33&quot;&gt;6.通过gather将日志发送到redis&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="290" y="800" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KrRgjkXAATxuMhb4QZNn-61" value="&lt;font color=&quot;#33ff33&quot;&gt;7.数据发往start进行全网聚合&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="KrRgjkXAATxuMhb4QZNn-61" value="&lt;font color=&quot;#33ff33&quot;&gt;7.数据发往statr进行全网聚合&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1019" y="762" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KrRgjkXAATxuMhb4QZNn-64" value="&lt;font color=&quot;#33ff33&quot;&gt;8.数据统计落盘&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
