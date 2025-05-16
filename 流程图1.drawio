@@ -13,7 +13,7 @@
         <mxCell id="k512X_VNwZL5-KmuskAI-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="k512X_VNwZL5-KmuskAI-2" target="k512X_VNwZL5-KmuskAI-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="k512X_VNwZL5-KmuskAI-2" value="HTML页面解析" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="k512X_VNwZL5-KmuskAI-2" value="解析网页内容获取资源链接" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="130" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k512X_VNwZL5-KmuskAI-4" value="下载资源文件（HTML、JS、CSS、PNG等）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
