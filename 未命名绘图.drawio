@@ -38,7 +38,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="SAG2wjgxiAova90-xC3C-7" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;判断IAM权限&lt;/font&gt;" vertex="1">
+        <mxCell id="SAG2wjgxiAova90-xC3C-7" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;判断企业项目权限&lt;/font&gt;" vertex="1">
           <mxGeometry height="80" width="190" x="510" y="230" as="geometry" />
         </mxCell>
         <mxCell id="SAG2wjgxiAova90-xC3C-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="无约束" vertex="1">
